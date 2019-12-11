@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ben_pike_final</string>
+    <string name="title_activity_maps">Map</string>
 </resources>

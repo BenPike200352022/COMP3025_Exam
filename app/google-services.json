@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "136576309820",
+    "firebase_url": "https://benpikefinal.firebaseio.com",
+    "project_id": "benpikefinal",
+    "storage_bucket": "benpikefinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:136576309820:android:8d48e49516e32d7c8a4139",
+        "android_client_info": {
+          "package_name": "com.benpike.ben_pike_final"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "136576309820-ktv384oeercp1galb1oc7q8igffd1186.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.benpike.ben_pike_final",
+            "certificate_hash": "f6fc61a24ff1d34f13e7429f61b43e0749049e33"
+          }
+        },
+        {
+          "client_id": "136576309820-c6obsp2fg0splmbjjgdlqa80ledft06q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcoGtDdQVbxsQ3jRjQ9yKZ3rsEmA3uowo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "136576309820-c6obsp2fg0splmbjjgdlqa80ledft06q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
