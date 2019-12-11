@@ -31,7 +31,8 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMarker
 
     var db = FirebaseFirestore.getInstance()
 
-    val place = db.collection("places").orderBy("name", Query.Direction.ASCENDING)
+    val query = db.collection("places").orderBy("name", Query.Direction.ASCENDING)
+
 
     // location client object
     private lateinit var locationClient: FusedLocationProviderClient
@@ -101,7 +102,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMarker
             location ->
             if (location != null) {
                 lastLocation = location
-                val currentLatLng = LatLng(location.place.lat, location.place.long)
+                val currentLatLng = LatLng(location.placeLat, location.placeLong)
                 map.animateCamera(CameraUpdateFactory.newLatLngZoom(currentLatLng, 12f))
             }
         }

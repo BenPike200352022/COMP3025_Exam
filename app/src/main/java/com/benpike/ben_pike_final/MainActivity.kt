@@ -8,12 +8,10 @@ import com.google.firebase.firestore.FirebaseFirestore
 import android.view.*
 import android.widget.TextView
 import kotlinx.android.synthetic.main.activity_main.*
-//import javax.swing.UIManager.put
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.firebase.ui.firestore.FirestoreRecyclerAdapter
 import com.firebase.ui.firestore.FirestoreRecyclerOptions
-import com.google.common.collect.Maps
 import com.google.firebase.firestore.Query
 
 //import com.firebase.ui.auth.AuthUI
